@@ -14,13 +14,6 @@ easy? [Use the template at the bottom](#editing-this-readme)!
 - [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line)
   or push an existing Git repository with the following command:
 
-```
-cd existing_repo
-git remote add origin https://git.seavus.com/QAOpenProjects/projects/toolbase.automation.git
-git branch -M main
-git push -uf origin main
-```
-
 ## Integrate with your tools
 
 - [ ] [Set up project integrations](https://git.seavus.com/QAOpenProjects/projects/toolbase.automation/-/settings/integrations)

@@ -1,0 +1,52 @@
+Aşağıdaki kod ile otomatik cevap verebiliriz.
+
+in Unix
+printf "bot\nn\nJava" | ./questions.sh
+
+
+https://www.baeldung.com/linux/bash-interactive-prompts
+
+
+
+
+in Windows
+For multiple inputs, do:
+(echo 'a' && echo 'b') | name.bat
+
+windowsta yukarıdakş sadece ilk parametreyi gönderiyor ama aşağıdaki gibi txt dosyasına kaydedilirse çalışıyor
+name < veriler.txt  *çalışıyor
+type  veriler.txt | name *çalışıyor
+
+(echo input1 && echo input2) | program.exe
+
+bash -c " printf 'bot\nn\nJava' | ./questions.sh"
+
+2:20 de muhtemelen imkansız dediği aşağıdaki yapı ile mümkün
+
+hostname && c: && dir
+
+log type : File olduğunda istenilen komutun çıktısı dosyada aranacak
+
+D:\BashTest>(echo 'ali' && echo "veli" && echo "serdar") | bash -c "./questions.sh"
+
+Hello, please introduce yourself.
+Your name: Are you human?
+y/n: What is your favorite programming language?
+Your answer:
+Answers:
+1. 'ali'
+2. "veli"
+3. "serdar"
+
+D:\BashTest>(echo ali && echo veli && echo serdar) | bash -c "./questions.sh"
+
+Hello, please introduce yourself.
+Your name: Are you human?
+y/n: What is your favorite programming language?
+Your answer:
+Answers:
+1. ali
+2. veli
+3. serdar
+
+gelişmiş testler için expect kullanılabilir
